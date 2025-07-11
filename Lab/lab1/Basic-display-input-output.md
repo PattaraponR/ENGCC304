@@ -30,10 +30,10 @@ int main() {
     scanf("%s", Name );
 
     printf("Enter your age: ");
-    scanf("%d", &Age); //เติม & เพื่อให้เก็บค่าที่พิมพ์ไว้ที่ ตำแหน่งของตัวแปร age
+    scanf("%d", &Age); //เติม & เพื่อให้เก็บค่าที่พิมพ์ไว้ที่ ตำแหน่งของตัวแปร Age
 
     printf("- - - - - -\n"); // แก้จาก print เป็น printf
-    printf("Hello %s \n", Name); //เติมตัวแปร name ในช่องว่าง
+    printf("Hello %s \n", Name); //เติมตัวแปร Name ในช่องว่าง
     printf("Age = %d \n", Age); //เติมตัวแปร Age ในช่องว่าง
 
     return 0; //ส่งค่ากลับเพื่อบอกว่าโปรแกรมจบแล้ว
