@@ -46,7 +46,7 @@ int main() {
 Enter your name: Pattarapon
 Enter you age: 19
 ```
-![Lab1 Input](https://github.com/user-attachments/assets/bed2a5d5-4dba-417a-9baf-5520e647fa0d)
+![Lab1 Input](https://github.com/user-attachments/assets/fb5c92ae-2f4a-4df4-bad0-e9364aae0439)
 
 ### Output
 ```bash
@@ -54,4 +54,4 @@ Enter you age: 19
 Hello Pattarapon
 Age = 19
 ```
-![Lab1 Output](https://github.com/user-attachments/assets/f5b821c7-7c38-47d9-b803-a5aea15cdfef)
+![Lab1 Output](https://github.com/user-attachments/assets/1e0827c6-0359-4ae2-a497-95e4bf6977a3)
