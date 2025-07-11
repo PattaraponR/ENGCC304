@@ -46,7 +46,7 @@ int main() {
 Enter your name: Pattarapon
 Enter you age: 19
 ```
-![Lab1 Input](Lab1/lab1input.png)
+![Lab1 Input](lab1/lab1input.png)
 
 ### Output
 ```bash
@@ -54,4 +54,4 @@ Enter you age: 19
 Hello Pattarapon
 Age = 19
 ```
-![Lab1 Output](Lab1/lap1output.png)
+![Lab1 Output](lab1/lap1output.png)
