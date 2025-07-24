@@ -1,4 +1,3 @@
-
 #include <stdio.h> //แก้ให้เป็น <stdio.h>
 #include <math.h>
 
