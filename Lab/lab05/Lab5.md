@@ -17,7 +17,7 @@
 int main() {
     int score;
 
-    printf("Enter your score here: ");
+    printf("Enter score : ");
     if (scanf("%d", &score) != 1) { // ตรวจสอบว่าที่กรอกเป็นตัวเลขหรือไม่ 
         printf("Please enter numbers only.\n");
         return 1; // จบโปรแกรมถ้าที่กรอกไม่ใช่ตัวเลข
