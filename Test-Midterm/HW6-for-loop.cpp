@@ -3,17 +3,22 @@
 int main() {
     int n, i, j;
 
-    printf("Enter number :\n");
+    printf("Enter number:\n");
+
     if (scanf("%d", &n) != 1) {
-        printf("Please Enter number\n");
+        printf("โปรดใส่เลขจำนวนเต็ม\n");
+        return 0;
     }
 
     for (i = n; i >= 2; i--) {
-        for (j = 2; j*j <= i && i % j != 0; j++);
-
-        if (j*j > i) {  
+        j = 2;
+        while (j * j <= i && i % j != 0) {
+            j++;
+        }
+        if (j * j > i) {
             printf("%d ", i);
         }
     }
+
     return 0;
 }
