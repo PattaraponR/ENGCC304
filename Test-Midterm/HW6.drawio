@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="หน้า-1" id="C7PLJoMffhd8uLANwb6m">
-    <mxGraphModel dx="1142" dy="1249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="992" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,8 +73,8 @@
             <mxPoint x="515" y="1892" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lN0C34qINitGibkDusYB-43" value="i &amp;gt;= 2" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="505" y="890" width="150" height="80" as="geometry" />
+        <mxCell id="lN0C34qINitGibkDusYB-43" value="i มีค่ามากกว่าหรือเท่ากับ 2 หรือไม่" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="472.5" y="855.33" width="215" height="114.67" as="geometry" />
         </mxCell>
         <mxCell id="lN0C34qINitGibkDusYB-49" value="j = 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="1070" width="120" height="60" as="geometry" />
@@ -86,13 +86,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="1572" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="430" y="1299" />
+              <mxPoint x="430" y="1300" />
               <mxPoint x="430" y="1542" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lN0C34qINitGibkDusYB-53" value="j*j &amp;lt;= i &amp;amp;&amp;amp; i % j != 0" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="492.5" y="1252" width="175" height="93.33" as="geometry" />
+        <mxCell id="lN0C34qINitGibkDusYB-53" value="ตรวจสอบว่า (j คูณ j) ยังมีค่าน้อยกว่าหรือ&#xa;เท่ากับ i และ i หารด้วย j แล้วยังไม่ลงตัว" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450.62" y="1230" width="258.76" height="142" as="geometry" />
         </mxCell>
         <mxCell id="lN0C34qINitGibkDusYB-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lN0C34qINitGibkDusYB-57" target="bYxphAqiSCyFqXHlekbz-19" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -108,7 +108,7 @@
             <mxPoint x="580" y="1602" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lN0C34qINitGibkDusYB-57" value="j*j &amp;gt; i" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="lN0C34qINitGibkDusYB-57" value="j คูณ j มีค่ามากกว่า i หรือไม่" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="505" y="1502" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lN0C34qINitGibkDusYB-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lN0C34qINitGibkDusYB-64" target="lN0C34qINitGibkDusYB-53" edge="1">
@@ -176,17 +176,16 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="1172" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="710" y="1432" />
-              <mxPoint x="710" y="1202" />
-              <mxPoint x="590" y="1202" />
+              <mxPoint x="730" y="1432" />
+              <mxPoint x="730" y="1202" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bYxphAqiSCyFqXHlekbz-9" value="&lt;code data-end=&quot;598&quot; data-start=&quot;587&quot;&gt;j = j + 1&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="bYxphAqiSCyFqXHlekbz-9" value="&lt;code data-end=&quot;598&quot; data-start=&quot;587&quot;&gt;เพิ่มค่า j ขึ้นทีละ 1&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="1402" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bYxphAqiSCyFqXHlekbz-11" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="600" y="1372" as="geometry">
+          <mxGeometry x="600" y="1390" as="geometry">
             <mxPoint x="-21" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
