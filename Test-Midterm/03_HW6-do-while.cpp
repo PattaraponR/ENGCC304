@@ -7,7 +7,6 @@ int main() {
 
     if (scanf("%d", &n) != 1) {
         printf("โปรดใส่เลขจำนวนเต็ม\n");
-        return 0;
     }
 
     i = n;
