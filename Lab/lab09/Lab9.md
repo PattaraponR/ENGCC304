@@ -9,25 +9,21 @@ int main() {
     int valueNum[100];
     int n;
 
-    // รับขนาดของ array
     printf("Enter the value of N: ");
     scanf("%d", &n);
 
-    // รับค่าตัวเลขจากผู้ใช้
     printf("-------------------------\n");
     for (int i = 0; i < n; i++) {
         printf("Enter the value [%d]: ", i);
         scanf("%d", &valueNum[i]);
     }
 
-    // แสดง index
     printf("-------------------------\n");
     printf("Index:\t");
     for (int i = 0; i < n; i++) {
         printf("%d ", i);
     }
 
-    // ตรวจสอบจำนวนเฉพาะและแสดงผล
     printf("\nArray:\t");
     for (int i = 0; i < n; i++) {
         int num = valueNum[i];
