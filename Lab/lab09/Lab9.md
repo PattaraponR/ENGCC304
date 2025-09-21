@@ -27,7 +27,7 @@ int main() {
     printf("\nArray:\t");
     for (int i = 0; i < n; i++) {
         int num = valueNum[i];
-        int isPrime = 1; // ใช้ int แทน bool (1 = true, 0 = false)
+        int isPrime = 1;
 
         if (num < 2) {
             isPrime = 0;
