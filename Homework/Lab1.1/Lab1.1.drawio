@@ -1,0 +1,119 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="L1wmtyfZt57GjsO9QkmE">
+    <mxGraphModel dx="1737" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PK9HuickdljreQoy4EXK-27" value="Start" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="574" y="20" width="60" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-28" value="กำหนดค่าเริ่มต้น total_num = 3 และ sum = 0" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="474" y="109" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-29" value="แสดงข้อความให้กรอกตัวเลข 3 จำนวน" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="491" y="237" width="226" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-30" value="กำหนด i = 0" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="545" y="341" width="119" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-31" target="PK9HuickdljreQoy4EXK-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-31" value="i น้อยกว่า total_num หรือไม่" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="523" y="460" width="161" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-32" value="รับค่าตัวเลขจากผู้ใช้" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="244" y="678" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-33" target="PK9HuickdljreQoy4EXK-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-33" target="PK9HuickdljreQoy4EXK-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-33" value="ข้อมูลถูกต้องหรือไม่" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="278" y="782" width="136" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-34" value="แสดงข้อความ Something Wrong" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="991" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-35" target="PK9HuickdljreQoy4EXK-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-35" value="นำค่าที่รับมาบวกเพิ่มใน sum" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1003" width="184" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-36" target="PK9HuickdljreQoy4EXK-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="817" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-36" value="เพิ่มค่า i ขึ้นทีละ 1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="678" width="114" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-37" value="แสดงผลรวม Answer เท่ากับ sum" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="503" y="678" width="202" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-38" value="End" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="578" y="831" width="51" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-27" target="PK9HuickdljreQoy4EXK-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-28" target="PK9HuickdljreQoy4EXK-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-29" target="PK9HuickdljreQoy4EXK-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-52" target="PK9HuickdljreQoy4EXK-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-32" target="PK9HuickdljreQoy4EXK-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-49" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-31" target="PK9HuickdljreQoy4EXK-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.51;entryY=0;rounded=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-37" target="PK9HuickdljreQoy4EXK-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="PK9HuickdljreQoy4EXK-30" target="PK9HuickdljreQoy4EXK-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="605" y="395" as="sourcePoint" />
+            <mxPoint x="603" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-52" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="594.5" y="420" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-56" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-59" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PK9HuickdljreQoy4EXK-60" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="218" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
