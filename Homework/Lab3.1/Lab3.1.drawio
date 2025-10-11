@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="q1bMMrWMzVG2Ocw6vh36">
+    <mxGraphModel dx="2605" dy="1405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-1" value="Start" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="492.25" y="40" width="60" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-2" value="Display &#39;Triangle Area Calculator&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="392.25" y="109" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-3" value="Display &#39;H = &#39; and input height" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="392.25" y="220" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-4" target="NUtGg34ZK40YRvdUb2ZY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-4" target="NUtGg34ZK40YRvdUb2ZY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-4" value="Height input valid?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="428.25" y="330" width="188" height="188" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-5" target="NUtGg34ZK40YRvdUb2ZY-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-5" value="Display &#39;Please enter a number.&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1012" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-6" value="End" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="496.5" y="1105" width="51" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-7" value="Display &#39;W = &#39; and input base" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="392.25" y="560" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-8" target="NUtGg34ZK40YRvdUb2ZY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-8" target="NUtGg34ZK40YRvdUb2ZY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-8" value="Base input valid?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="435.25" y="680" width="174" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-9" value="Display &#39;Please enter a number.&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="392" y="910" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-10" value="Calculate area = 0.5 * base * height" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="684.5" y="910" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-11" target="NUtGg34ZK40YRvdUb2ZY-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-11" value="Display &#39;Area = ...&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1024" width="189" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-1" target="NUtGg34ZK40YRvdUb2ZY-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-2" target="NUtGg34ZK40YRvdUb2ZY-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-3" target="NUtGg34ZK40YRvdUb2ZY-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-7" target="NUtGg34ZK40YRvdUb2ZY-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-32" target="NUtGg34ZK40YRvdUb2ZY-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-10" target="NUtGg34ZK40YRvdUb2ZY-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-27" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300.25" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-29" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520.25" y="518" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="NUtGg34ZK40YRvdUb2ZY-9" target="NUtGg34ZK40YRvdUb2ZY-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="522" y="988" as="sourcePoint" />
+            <mxPoint x="521" y="1105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-32" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="508.75" y="1037.75" width="26.5" height="26.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-36" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690.25" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NUtGg34ZK40YRvdUb2ZY-38" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
