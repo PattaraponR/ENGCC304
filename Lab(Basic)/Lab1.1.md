@@ -38,11 +38,13 @@ int main(){
 ## TEST CASE
 ### Input
 ```bash
-Enter Num : 3
+Enter Num : 5
 ```
 ### Output
 ```bash
-[1]Hello World
-[2]Hello World
-[3]Hello World
+Hello Loop! 
+Hello Loop! 
+Hello Loop! 
+Hello Loop! 
+Hello Loop! 
 ```
