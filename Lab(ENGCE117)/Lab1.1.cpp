@@ -7,7 +7,7 @@ int main(){
         return 1;
     }
     for( i=0; i<N ;i++){
-    printf("Hello Loop! \n");
+    printf("[%d]Hello World \n",i+1);
     }
     return 0;
 }
