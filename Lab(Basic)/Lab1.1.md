@@ -17,3 +17,15 @@ int main(){
     return 0;
 }
 ```
+## TEST CASE
+### Input
+```bash
+Enter Num : 3
+```
+### Output
+```bash
+- - - - - -
+[1]Hello World
+[2]Hello World
+[3]Hello World
+```
