@@ -5,16 +5,16 @@
 ## Code
 ```c++
 #include <stdio.h>
-int main(){
-    int N,i;
-    printf("Enter Num : ");
-    if (scanf("%d", &N ) !=1 || N<=0 ){
-        printf("Error\n");
-        return 1;
+
+int main() {
+    int n, i;
+    printf("Enter Num :  ");
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++) {
+        printf("[%d] Hello world\n", i);
     }
-    for( i=0; i<N ;i++){
-    printf("[%d]Hello World \n",i+1);
-    }
+
     return 0;
 }
 ```
