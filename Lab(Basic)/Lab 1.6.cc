@@ -1,29 +1,22 @@
-#include <stdio.h>
-
 int main() {
     int number;
-    int evenSum = 0;
-    int oddSum = 0;
 
-    if (scanf("%d", &number) != 1) {
-        return 1;
-    }
-
-    while (number != 0) {
-        
-        if (number % 2 == 0) {
-            evenSum = evenSum + number;
-        } else {
-            oddSum = oddSum + number;
-        }
-
+    do {
+        printf("Enter a number (1-10): ");
         if (scanf("%d", &number) != 1) {
-            break;
+            // Clear input buffer for non-integer input
+            while (getchar() != '\n');
+            printf("Error: Value must be 1-10.\n");
+            number = 0; // Set number to a value outside the valid range to continue the loop
+        } else {
+            if (number < 1) {
+                printf("Error: Value must be 1-10.\n");
+            } else if (number > 10) {
+                printf("Error: Value must be 1-10.\n");
+            }
         }
-    }
+    } while (number < 1 || number > 10);
 
-    printf("Even Sum: %d\n", evenSum);
-    printf("Odd Sum: %d\n", oddSum);
-
+    printf("Input accepted: [%d]\n", number);
     return 0;
 }
