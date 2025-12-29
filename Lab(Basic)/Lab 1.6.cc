@@ -4,10 +4,9 @@ int main() {
     do {
         printf("Enter a number (1-10): ");
         if (scanf("%d", &number) != 1) {
-            // Clear input buffer for non-integer input
             while (getchar() != '\n');
             printf("Error: Value must be 1-10.\n");
-            number = 0; // Set number to a value outside the valid range to continue the loop
+            number = 0;
         } else {
             if (number < 1) {
                 printf("Error: Value must be 1-10.\n");
